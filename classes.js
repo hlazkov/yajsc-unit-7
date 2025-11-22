@@ -137,7 +137,7 @@ class TV {
 }
 
 class MyFavoriteTV extends TV {
-    constructor() {
+    constructor(modelName, numberOfChannels) {
         super("Samsung", modelName, numberOfChannels);
     }
 

@@ -13,7 +13,7 @@ const {
 	newWolf,
 	myDog,
 	ourPuppies,
-} = require('../classes.js');
+} = require('./classes.js');
 const sinon = require("sinon");
 
 describe('Unit 5 - Easy - Classes:', () => {
@@ -74,7 +74,7 @@ describe('Unit 5 - Easy - Classes:', () => {
 		it('Verify method getCommercialName returns the correct string', () => {
 			const testString = 'testString';
 			const testTV = new MyFavoriteTV(testString, 1);
-			const result = testTV.getCommercialName.call();
+			const result = testTV.getCommercialName();
 
 			expect(result.split(' '), 'Brand name should not contain any of constructor arguments')
 				.to.contain(testString);
@@ -87,7 +87,7 @@ describe('Unit 5 - Easy - Classes:', () => {
 		})
 		it('Verify method plugIn sets the proper flag', () => {
 			const testTV = new MyFavoriteTV('test', 1);
-			testTV.plugIn.call()
+			testTV.plugIn()
 			expect(testTV.isPluggedIn, 'Expect isPluggedIn flag to be true after plugIn method is called')
 				.to.be.equal(true)
 		})

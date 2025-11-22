@@ -4,7 +4,7 @@
   "description": "JS for QA/AQA course",
   "main": "index.js",
   "scripts": {
-    "test:unit5:classes": "mocha classes.spec.js"
+    "test": "mocha ./classes.spec.js"
   },
   "repository": {
     "type": "git",
