@@ -1,0 +1,24 @@
+{
+  "name": "yet_another_js_course_unit_7",
+  "version": "1.0.0",
+  "description": "JS for QA/AQA course",
+  "main": "index.js",
+  "scripts": {
+    "test:unit5:classes": "mocha classes.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ovartem/yet_another_js_course.git"
+  },
+  "author": "ov.artem90@gmail.com",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/ovartem/yet_another_js_course#readme",
+  "dependencies": {
+    "chai": "^4.3.5",
+    "chance": "^1.1.8",
+    "eslint": "^8.7.0",
+    "lodash": "^4.17.21",
+    "mocha": "^10.4.0",
+    "sinon": "^12.0.1"
+  }
+}
